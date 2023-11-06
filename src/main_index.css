@@ -1,0 +1,421 @@
+
+
+.title {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    border-style: solid;
+    padding-left: 200px;
+    padding-bottom: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    list-style: none;
+    margin: 0;
+}
+
+
+.img{
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+.phone_top{
+    margin-left: 1310px;
+    font-size: 1.2em;
+}
+
+.banner_right{
+    margin-left: 900px;
+    font: 0.6em sans-serif;
+}
+
+.gift_card{
+    font: 0.6em sans-serif;
+    padding-left: 25px;
+}
+
+.login {
+    padding-left: 25px;
+}
+
+
+ .search_bar{
+    background-color: white;
+    text-align: center;
+    border-bottom: 1px;
+    border-style: solid;
+    border-right-style: none;
+    border-left-style: none;
+    border-top-style: solid;
+}
+.shipping_info{
+    border-top-color: white;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    border-bottom-color: white;
+    font-size:1.4em;
+    
+}
+
+.two_day, .over, .sixtyDay {
+    padding-left: 35px;
+}
+
+.seeD {
+    padding-left: 100px;
+}
+
+.line1, .line2, .line3, .line4, .line5 {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2em;
+    
+}
+
+.over, .seeD{
+    color: gray;
+}
+
+.seeD {
+    padding-right: 70px;
+}
+
+
+
+.line3, .line4{
+    padding-left: 0px;
+    padding-right: 10px;
+    color: gray;
+    
+}
+
+.line3 {
+    padding-right: 0px;
+}
+
+.line5 {
+    padding-left: 20px;
+}
+
+#submit{
+    background-color: orangered;
+    padding-right: 10px;
+    padding-top: 15px;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+#search {
+    padding-right: 100px;
+    text-align: left;
+    font-size: 2.0em;
+}
+
+.search_btn {
+    font-size: 2.0em;
+}
+
+.search_field {
+    padding-left: 10px;
+    
+}
+
+.shipping, .two_day, .sixtDay {
+    color:orange;
+}
+
+.header {
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    position: fixed;
+    margin-top: 70px;
+    flex-direction: column;
+    padding-left: 300px;
+}
+
+
+.header ul {
+list-style: none;
+padding: 30px;
+font-size: 1.4em;
+padding-top: 10px;
+
+}
+
+
+.deck_info, .build_info, .complete_info, .trucks_info, .home_page {
+    text-align: center;
+    margin-top: 120px;
+
+}
+.mainpage-title  {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.welcomepage {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.checkout_info {
+    text-align: center;
+    margin-left: 700px;
+    margin-right: 300px;
+    padding-top: 40px;
+    font-size: 1.4em;
+
+}
+
+.checkout_info h1 {
+    padding-right: 250px;
+}
+
+
+form {
+    padding: 10px;
+   width: 66.6667%;
+   float: left;
+}
+legend {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.25em;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+ }
+
+ #deliveryinfo label {
+    display: block;
+    float: left;
+    clear: left;
+    margin-top: 5px;
+ }
+
+ #deliveryinfo input {
+    display: block;
+    margin-left: 140px;
+    margin-top: 9px;
+ }
+
+
+ #orderinfo label {
+    padding: 7px;
+ }
+
+
+ #nameinput, #emailinput, #addrinput {
+    width: 20em;
+ }
+ #cityinput, #phoneinput {
+    width: 15em;
+ }
+ 
+
+fieldset {
+    margin-bottom: 10px;
+    position: relative;
+    padding: 2.5em 1em 0.5em 1em;
+    background: white;
+}
+
+fieldset fieldset {
+    padding-top: 15px;
+ }
+
+ fieldset fieldset legend {
+    font-size: 1em;
+    margin-top: 25px;
+    top: -30px;
+    left: 8px;
+ }
+
+ #selection {
+  
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+ }
+
+ #deck, #complete, #truck {
+    margin-top: 15px;
+ }
+
+ #instrlabel {
+    display: block;
+    margin: 1em 0 0.5em 0;
+ }
+ 
+ textarea {
+    margin-bottom: 1em;
+ }
+
+ 
+.deck_info h1,  .trucks_info h1{
+   
+    text-align: center;
+    padding-right: 250px;
+    padding-bottom: 25px;
+    
+}
+
+
+
+.orderreview{
+   border-style: solid;
+   margin-left: 200px;
+   padding-left: 40px;
+   display: flex;
+   margin-right: 20px;
+   text-align: justify;
+
+   justify-content:flex-start;
+   flex-direction: column;
+   margin-bottom: 10px;
+}
+
+.complete_info h1  {
+    padding-right: 40px;
+    padding-bottom: 25px;
+}
+.complete_info h2 {
+    padding-right: 110px;
+    margin-top: 60px;
+}
+
+.complete_info p {
+    padding-left: 0px;
+    border-top: solid;
+    margin-left: 650px;
+    margin-right: 300px;
+    padding-top: 60px;
+    text-align: left;
+    border-top-width: 1px;
+}
+
+.build_info p{
+    padding-left: 0px;
+    border-top: solid;
+    margin-left: 650px;
+
+    padding-top: 60px;
+    text-align: left;
+    border-top-width: 1px;
+
+}
+.buildbtn1 {
+    margin-right: 50px;
+    margin-top: 20px;
+   
+}
+.buildbtn2 {
+    margin-left: 30px;
+}
+
+.img3 {
+    padding: 30px;
+}
+
+.build_info h1 {
+    padding-right: 60px;
+    padding-bottom: 25px;
+}
+
+.deck_info p {
+    border-top: solid;
+    margin-left: 660px;
+    margin-right: 300px;
+    text-align: left;
+    padding-top: 30px;
+    padding-right: 100px;
+    border-top-width: 1px;
+}
+
+.featured {
+    margin-top: 60px;
+    margin-right: 150px;
+}
+
+.trucks_info p {
+    border-top: solid;
+    margin-left: 660px;
+    border-top-width: 1px;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 0px;
+}
+
+
+.deck, .complete, .build, .trucks {
+    margin-top: 10px;
+    font: 1em sans-serif;
+}
+
+.deck:hover, .complete:hover, .build:hover, .trucks:hover {
+   font-style: oblique;
+}
+
+.img2, h3 {
+    padding-right: 400px;
+
+}
+
+
+.active {
+    background-color: gray;
+}
+
+
+.shipping_info{
+    margin-left: 260px;
+}
+
+
+
+.auth-form-container, .btn_submit{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; 
+}
+
+
+.auth-form-container button {
+    margin-top: 5px;
+    
+
+}
+
+.auth-form-container .login-form, .auth-form-container .login-form2, .auth-form-container .register-form, 
+.auth-form-container .register-form2, .auth-form-container .register-form3, .btn_submit {
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.text-danger {
+    color: red;
+}
+
+.login, .login-form, .login-form2, .register-form, .register-form2, .register-form2, .register-form3 {
+    display: flex;
+    margin-left:500px ;
+    margin-right: 500px;
+}
+
+
+
+
+
